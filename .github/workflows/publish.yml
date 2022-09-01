@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build container
+        uses: docker/build-push-action@v1
         with:
           username: KarChunT
           password: ${{ secrets.GITHUB_TOKEN }}
