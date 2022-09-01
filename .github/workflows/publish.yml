@@ -14,5 +14,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: karchunt/publicpackages:latest
-          username: KarChunT
-          password: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
