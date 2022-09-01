@@ -13,4 +13,4 @@ jobs:
         with:
           file: ./Dockerfile
           push: true
-          tags: KarChunT/publicpackages:latest
+          tags: karchunt/publicpackages:latest
